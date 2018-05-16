@@ -2,6 +2,6 @@ language: python
 python:
   - "3.6"
 install:
-  - setup_python.sh
+  - pip install -r requirements.txt
 script:
-  - test.sh
+  - python -m pytest -s 
