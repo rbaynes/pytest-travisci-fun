@@ -1,0 +1,7 @@
+language: python
+python:
+  - "3.6"
+install:
+  - setup_python.sh
+script:
+  - test.sh
