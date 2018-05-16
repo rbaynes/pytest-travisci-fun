@@ -1,7 +1,7 @@
 import pytest
 
 def test_boom():
-    #print('boom')
+    print('boom')
     #assert 3 == 4
 
 def test_yay():
